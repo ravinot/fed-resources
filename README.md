@@ -1,38 +1,64 @@
 # Front-End Development Resources
 
-A running list of the links, tools and references I actually reach for as a front-end developer — cheat sheets, CSS tools, colour tools, JavaScript libraries, Chrome extensions, and a lot more. I started keeping this in 2015 and gave it away as a Christmas gift on Medium; this repo is me finally moving it somewhere I can keep it up to date properly, with every link pulled straight from that original write-up: [The Ultimate Front-End Development List](https://ravisundram.medium.com/the-ultimate-front-end-development-list-for-2015-5409727c28b4).
+*The links, tools and references I actually reach for as a front-end developer.*
 
-482 links across 25 categories, as of the last update to the original article (August 2023). Some of these are old — that's the nature of a list like this. Spotted something dead, or have a link worth adding? See [CONTRIBUTING.md](CONTRIBUTING.md).
+Started in 2015 as a Christmas gift to Medium readers; this repo is that list finally moved somewhere I can keep it up to date. Every link below is pulled from the original write-up: [The Ultimate Front-End Development List](https://ravisundram.medium.com/the-ultimate-front-end-development-list-for-2015-5409727c28b4).
+
+**482 links** · **25 categories** · last updated August 2023 · [contributions welcome](CONTRIBUTING.md)
 
 ## Contents
 
-- [Cheat Sheets & Checklists](#cheat-sheets-checklists)
-- [Content Management Systems](#content-management-systems)
-- [CSS](#css)
-- [CSS Generators](#css-generators)
-- [Colours](#colours)
-- [Command Line / Terminal](#command-line-terminal)
-- [Email Marketing](#email-marketing)
-- [Google Chrome Extensions](#google-chrome-extensions)
-- [Gulp & Grunt](#gulp-grunt)
-- [Icons & Images](#icons-images)
-- [Inspiration](#inspiration)
-- [JavaScript](#javascript)
-- [Job Boards](#job-boards)
-- [MAC Software](#mac-software)
-- [Performance](#performance)
-- [Photoshop](#photoshop)
-- [Project Management](#project-management)
-- [References](#references)
-- [Responsive](#responsive)
-- [Style Guides](#style-guides)
-- [Testing](#testing)
-- [User Interface & User Experience](#user-interface-user-experience)
-- [Web Accessibility](#web-accessibility)
-- [Web Fonts / Typography](#web-fonts-typography)
-- [More Information](#more-information)
+<table>
+<tr>
+<td><a href="#cheat-sheets-checklists">Cheat Sheets & Checklists</a></td>
+<td><a href="#content-management-systems">Content Management Systems</a></td>
+<td><a href="#css">CSS</a></td>
+</tr>
+<tr>
+<td><a href="#css-generators">CSS Generators</a></td>
+<td><a href="#colours">Colours</a></td>
+<td><a href="#command-line-terminal">Command Line / Terminal</a></td>
+</tr>
+<tr>
+<td><a href="#email-marketing">Email Marketing</a></td>
+<td><a href="#google-chrome-extensions">Google Chrome Extensions</a></td>
+<td><a href="#gulp-grunt">Gulp & Grunt</a></td>
+</tr>
+<tr>
+<td><a href="#icons-images">Icons & Images</a></td>
+<td><a href="#inspiration">Inspiration</a></td>
+<td><a href="#javascript">JavaScript</a></td>
+</tr>
+<tr>
+<td><a href="#job-boards">Job Boards</a></td>
+<td><a href="#mac-software">MAC Software</a></td>
+<td><a href="#performance">Performance</a></td>
+</tr>
+<tr>
+<td><a href="#photoshop">Photoshop</a></td>
+<td><a href="#project-management">Project Management</a></td>
+<td><a href="#references">References</a></td>
+</tr>
+<tr>
+<td><a href="#responsive">Responsive</a></td>
+<td><a href="#style-guides">Style Guides</a></td>
+<td><a href="#testing">Testing</a></td>
+</tr>
+<tr>
+<td><a href="#user-interface-user-experience">User Interface & User Experience</a></td>
+<td><a href="#web-accessibility">Web Accessibility</a></td>
+<td><a href="#web-fonts-typography">Web Fonts / Typography</a></td>
+</tr>
+<tr>
+<td><a href="#more-information">More Information</a></td>
+<td></td>
+<td></td>
+</tr>
+</table>
 
-## Cheat Sheets & Checklists
+<a id="cheat-sheets-checklists"></a>
+<details>
+<summary><strong>Cheat Sheets & Checklists</strong></summary>
 
 - [30 seconds of code](https://www.30secondsofcode.org/) — Short, code snippets for all your development needs.
 - [CSS3 Animation Cheat Sheet](http://justinaguilar.com/animations/index.html) — A set of preset, plug-and-play animations for your web projects.
@@ -47,7 +73,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [WCAG 2.0 Checklists](https://www.wuhcag.com/wcag-checklist/) — WCAG 2.0 checklist helps you to check your web accessibility progress, record how far you’ve come and set your targets out for the future.
 - [Web Accessibility Checklist](http://a11yproject.com/checklist.html) — Determine how accessible your site is.
 
-## Content Management Systems
+</details>
+
+<a id="content-management-systems"></a>
+<details>
+<summary><strong>Content Management Systems</strong></summary>
 
 - [Contentful](https://www.contentful.com/) — An API-first approach to enable ease of out-of-the-box authoring.
 - [Kirby](https://getkirby.com/) — Build your own ideal interface. Combine forms, galleries, articles, spreadsheets and more into an editing experience.
@@ -57,7 +87,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Softr](https://www.softr.io/) — Build websites, web apps and client portals on Airtable.
 - [Tina](https://tina.io/) — Tina is an open-source, headless CMS for Markdown, MDX, and JSON.
 
-## CSS
+</details>
+
+<a id="css"></a>
+<details>
+<summary><strong>CSS</strong></summary>
 
 ### Animation & Effects
 
@@ -116,7 +150,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [extractCSS](http://extractcss.com/) — AJavaScript library and an online tool that lets you extract element ID, class and inline styles from HTML document and output them as CSS stylesheet.
 - [MaintainableCSS](http://maintainablecss.com/) — An approach to writing modular, scalable, maintainable CSS.
 
-## CSS Generators
+</details>
+
+<a id="css-generators"></a>
+<details>
+<summary><strong>CSS Generators</strong></summary>
 
 ### Grids
 
@@ -158,7 +196,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Transfonter](http://transfonter.org/) — A modern and simple CSS @font-face generator.
 - [Tridiv](http://tridiv.com/) — A web-based editor for creating 3D shapes in CSS.
 
-## Colours
+</details>
+
+<a id="colours"></a>
+<details>
+<summary><strong>Colours</strong></summary>
 
 ### Converters
 
@@ -194,14 +236,22 @@ A running list of the links, tools and references I actually reach for as a fron
 - [hexcodes](http://chrisnager.github.io/hexcodes/) — All 4,096 shorthand hexcodes.
 - [Hexwalk](http://hexwalk.in/) — Simple colour inspiration.
 
-## Command Line / Terminal
+</details>
+
+<a id="command-line-terminal"></a>
+<details>
+<summary><strong>Command Line / Terminal</strong></summary>
 
 - [Awesome OS X Command Line](https://github.com/herrbischoff/awesome-osx-command-line) — A curated list of shell commands and tools specific to OS X.
 - [EditorConfig](http://editorconfig.org/) — Helps developers define and maintain consistent coding styles between different editors and IDEs.
 - [iTerm 2](https://www.iterm2.com/) — A terminal emulator for Mac OS.
 - [Unix Toolbox](http://cb.vu/unixtoolbox.xhtml) — A collection of Unix/Linux/BSD commands and tasks which are useful for IT work.
 
-## Email Marketing
+</details>
+
+<a id="email-marketing"></a>
+<details>
+<summary><strong>Email Marketing</strong></summary>
 
 ### CSS Inliners
 
@@ -230,7 +280,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [The Drop Calc Method to Create Responsive HTML Emails](http://blog.edmdesigner.com/the-drop-calc-method-to-create-responsive-html-emails/)
 - [The Ultimate Guide to CSS](https://www.campaignmonitor.com/css/) — A complete breakdown of the CSS support for the most popular mobile, web and desktop email clients on the planet.
 
-## Google Chrome Extensions
+</details>
+
+<a id="google-chrome-extensions"></a>
+<details>
+<summary><strong>Google Chrome Extensions</strong></summary>
 
 - [Alix](https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge) — Allows you to lint your HTML for Accessibility issues simply by applying a stylesheet that makes use of advanced CSS selectors.
 - [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en) — Screen capture for all or part of any web page.
@@ -282,7 +336,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Wildfire](https://chrome.google.com/webstore/detail/wildfire/djhgeeodemlfdpmcccdekfalbhllcoim) — Record browser actions then replay immediately.
 - [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) — Resize browser window to emulate various screen resolutions.
 
-## Gulp & Grunt
+</details>
+
+<a id="gulp-grunt"></a>
+<details>
+<summary><strong>Gulp & Grunt</strong></summary>
 
 - [Automate your tasks easily with Gulp](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
 - [Building with Gulp](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
@@ -295,7 +353,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
 - [Offroadcode Starter Kit](https://github.com/Offroadcode/Offroadcode-Starter-Kit)
 
-## Icons & Images
+</details>
+
+<a id="icons-images"></a>
+<details>
+<summary><strong>Icons & Images</strong></summary>
 
 - [Compfight](http://compfight.com/) — Locate the visual inspiration you need.
 - [Cool Backgrounds](https://coolbackgrounds.io/) — A collection of tools to create compelling, colourful images for blogs, social media, and websites.
@@ -328,7 +390,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [The Stocks](http://thestocks.im/) — Best royalty free stock photos, videos, mockups, icons and fonts.
 - [Unsplash](https://unsplash.com/) — Beautiful, free photos for everyone.
 
-## Inspiration
+</details>
+
+<a id="inspiration"></a>
+<details>
+<summary><strong>Inspiration</strong></summary>
 
 - [AGDA Design Awards](https://awards.agda.com.au/finalist/3/10006)
 - [Best About Pages](http://bestaboutpages.com/)
@@ -346,7 +412,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Virgin America](https://www.virginamerica.com/vxnewlook/) — Introduction to new website.
 - [Ways We Work](http://wayswework.io/) — Conversations with people doing the work they love.
 
-## JavaScript
+</details>
+
+<a id="javascript"></a>
+<details>
+<summary><strong>JavaScript</strong></summary>
 
 ### Libraries / Plugins
 
@@ -405,7 +475,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Weight Of It](http://weightof.it/) — Compare JavaScript libraries by weight.
 - [You might not need jQuery plugins](http://youmightnotneedjqueryplugins.com/)
 
-## Job Boards
+</details>
+
+<a id="job-boards"></a>
+<details>
+<summary><strong>Job Boards</strong></summary>
 
 - [FlexJobs](https://www.flexjobs.com/jobs/search/front-end-developer) — Manually vetted remote and flexible front-end developer jobs.
 - [Stack Overflow](https://stackoverflow.com/) — All kinds of developer jobs, including front end.
@@ -413,7 +487,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Authentic Jobs](https://authenticjobs.com/) — Job board for designers, developers, and creative pros.
 - [Indeed](https://www.indeed.com/q-Front-End-Developer-jobs.html) — Both remote and regular front-end developer jobs.
 
-## MAC Software
+</details>
+
+<a id="mac-software"></a>
+<details>
+<summary><strong>MAC Software</strong></summary>
 
 - [Atom](https://atom.io/) — A hackable text editor.
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
@@ -431,7 +509,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Smaller](http://25.io/smaller/) — An HTML, CSS and JavaScript compressor which also has the ability to combine several files into one.
 - [VirtualBox](https://www.virtualbox.org/) — A general-purpose full virtualizer for x86 hardware. Also see IE 7 8 9 10 11 Testing VM’s.
 
-## Performance
+</details>
+
+<a id="performance"></a>
+<details>
+<summary><strong>Performance</strong></summary>
 
 - [A Beginner’s Guide to Website Speed Optimization](https://kinsta.com/learn/page-speed/)
 - [Designing for Performance](http://designingforperformance.com/) — Weighing Aesthetics and Speed.
@@ -457,7 +539,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Yellow Lab Tools](http://yellowlab.tools/) — An open source test to help speeding up heavy web pages.
 - [YSlow](http://yslow.org/) — Analyse web pages and why they are slow based on Yahoo’s rules for high performance web sites.
 
-## Photoshop
+</details>
+
+<a id="photoshop"></a>
+<details>
+<summary><strong>Photoshop</strong></summary>
 
 - [Compressor.io](https://compressor.io/) — Compress and optimise your images.
 - [Craft](https://www.invisionapp.com/craft) — A suite of plugins to let you design with real data in mind.
@@ -476,7 +562,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [UberPlugins](http://uberplugins.cc/) — Photoshop Extensions, Tools & Resources.
 - [Unsplash It](https://unsplash.it/) — Beautiful placeholder images.
 
-## Project Management
+</details>
+
+<a id="project-management"></a>
+<details>
+<summary><strong>Project Management</strong></summary>
 
 - [Best Practices, Tips, and Resources for Project Management](http://blog.mavenlink.com/project-management-best-practices)
 - [Design Sprint Kit](https://designsprintkit.withgoogle.com/) — Resources for planning and running a Google design sprint.
@@ -490,7 +580,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [The Ultimate Introduction to Project Management Fundamentals](https://www.wrike.com/project-management-guide/)
 - [The Ultimate Project Management Guide](https://www.liquidplanner.com/the-ultimate-project-management-guide/)
 
-## References
+</details>
+
+<a id="references"></a>
+<details>
+<summary><strong>References</strong></summary>
 
 - [Codrops CSS Reference](http://tympanus.net/codrops/css_reference/) — An extensive CSS reference with all the important properties and info.
 - [Cross Browser Handbook Knowledgebase](http://www.crossbrowserbook.com/Knowledge)
@@ -517,7 +611,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [The Web platform: Browser technologies](https://platform.html5.org/)
 - [What Web Can Do Today](https://whatwebcando.today/) — An overview of the device integration HTML5 APIs.
 
-## Responsive
+</details>
+
+<a id="responsive"></a>
+<details>
+<summary><strong>Responsive</strong></summary>
 
 - [Adaptive Images](http://adaptive-images.com/) — Detect your visitor’s screen size and automatically creates, caches, and delivers device appropriate re-scaled versions of your web page’s embedded HTML images.
 - [Designmodo Responsive Web Design Test Tool](http://designmodo.com/responsive-test/) — Test while you build your responsive design.
@@ -546,7 +644,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Viewport Resizer](http://lab.maltewassermann.com/viewport-resizer/) — Build your own bookmarklet to test any website’s responsiveness.
 - [Viewport Sizes](http://viewportsizes.com/) — A large collection of device viewport sizes to assist with responsive design and mobile web sites/apps.
 
-## Style Guides
+</details>
+
+<a id="style-guides"></a>
+<details>
+<summary><strong>Style Guides</strong></summary>
 
 - [50 Meticulous Style Guides Every Startup Should See Before Launching](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
 - [Bits](http://bits.24ways.org/) — The front-end component library for 24 ways.
@@ -563,7 +665,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Website Style Guide Resources](http://styleguides.io/)
 - [Yelp](http://www.yelp.com/styleguide)
 
-## Testing
+</details>
+
+<a id="testing"></a>
+<details>
+<summary><strong>Testing</strong></summary>
 
 - [Browsersync](http://www.browsersync.io/) — Synchronised browser testing.
 - [Can I use](http://caniuse.com/) — Tells you which browsers support what, and from which version.
@@ -572,7 +678,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [SSL Check](https://www.jitbit.com/sslcheck/) — Scan your website for non-secure content.
 - [W3C Developer Tools](https://w3c.github.io/developers/tools/) — Lead your code to its full potential  with great and open source tools.
 
-## User Interface & User Experience
+</details>
+
+<a id="user-interface-user-experience"></a>
+<details>
+<summary><strong>User Interface & User Experience</strong></summary>
 
 - [BackgroundCheck](http://www.kennethcachia.com/background-check/) — Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it.
 - [Building a ubiquitous design language with components](https://michaeltaranto.github.io/slides-ubiquitous-design-language/#/)
@@ -591,7 +701,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [UX Crash Course: 31 Fundamentals](http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals)
 - [UX, Usability and User-Interface Design](https://flipboard.com/@gabelfisch/usability-%26-user-experience-bcngktbtz) — By Userbrain.
 
-## Web Accessibility
+</details>
+
+<a id="web-accessibility"></a>
+<details>
+<summary><strong>Web Accessibility</strong></summary>
 
 - [90 examples of A11y compliant colour combinations](http://clrs.cc/a11y/)
 - [A11y](https://addyosmani.github.io/a11y/) — Web accessibility audits powered by the Chrome Accessibility Developer Tools.
@@ -607,7 +721,11 @@ A running list of the links, tools and references I actually reach for as a fron
 - [WebAIM Color Contrast Checker](http://webaim.org/resources/contrastchecker/)
 - [Web Components](https://www.webcomponents.org/) — Discuss & share web components.
 
-## Web Fonts / Typography
+</details>
+
+<a id="web-fonts-typography"></a>
+<details>
+<summary><strong>Web Fonts / Typography</strong></summary>
 
 - [Font Squirrel Webfont Generator](http://www.fontsquirrel.com/tools/webfont-generator)
 - [Gridlover](https://www.gridlover.net/) — Establish a typographic system with modular scale & vertical rhythm.
@@ -621,10 +739,16 @@ A running list of the links, tools and references I actually reach for as a fron
 - [Type Scale](http://type-scale.com/) — Preview and choose the right type scale for your project. Experiment with font size, scale and different webfonts.
 - [wordmark](http://wordmark.it/) — Quickly display previews of any text with the fonts installed on your computer.
 
-## More Information
+</details>
+
+<a id="more-information"></a>
+<details>
+<summary><strong>More Information</strong></summary>
 
 - [KeyCDN: Web Development Tools](https://www.keycdn.com/blog/web-development-tools/) — A roundup of more web development tools worth knowing about.
 - [CodingList](https://codinglist.com/) — Resources if you want to become a better programmer.
+
+</details>
 
 ## License
 
