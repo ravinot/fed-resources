@@ -1,10 +1,10 @@
 # Front-End Development Resources
 
-*The links, tools and references I actually reach for as a front-end developer.*
+*The links, tools and references I actually reached for whilst learning my craft as a front-end developer.*
 
 Started in 2015 as a Christmas gift to Medium readers; this repo is that list finally moved somewhere I can keep it up to date. Every link below is pulled from the original write-up: [The Ultimate Front-End Development List](https://ravisundram.medium.com/the-ultimate-front-end-development-list-for-2015-5409727c28b4).
 
-**482 links** · **25 categories** · last updated August 2023 · [contributions welcome](CONTRIBUTING.md)
+**465 links** · **27 categories** · last updated September 2026 · [contributions welcome](CONTRIBUTING.md)
 
 ## Contents
 
@@ -22,7 +22,7 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 <tr>
 <td><a href="#email-marketing">Email Marketing</a></td>
 <td><a href="#google-chrome-extensions">Google Chrome Extensions</a></td>
-<td><a href="#gulp-grunt">Gulp & Grunt</a></td>
+<td><a href="#build-tools">Build Tools & Bundlers</a></td>
 </tr>
 <tr>
 <td><a href="#icons-images">Icons & Images</a></td>
@@ -51,8 +51,8 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 </tr>
 <tr>
 <td><a href="#more-information">More Information</a></td>
-<td></td>
-<td></td>
+<td><a href="#typescript">TypeScript</a></td>
+<td><a href="#ai-assisted-development">AI-Assisted Development</a></td>
 </tr>
 </table>
 
@@ -81,10 +81,12 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 
 - [Contentful](https://www.contentful.com/) — An API-first approach to enable ease of out-of-the-box authoring.
 - [Kirby](https://getkirby.com/) — Build your own ideal interface. Combine forms, galleries, articles, spreadsheets and more into an editing experience.
+- [Payload](https://payloadcms.com/) — A TypeScript-first, self-hosted headless CMS with a built-in admin UI.
 - [Perch](https://grabaperch.com/) — A PHP content management system that installs on your own website.
 - [Pulse CMS](https://www.pulsecms.com/) — Fit the CMS around your web designs.
-- [Sir Trevor](http://madebymany.github.io/sir-trevor-js/) — An intuitive editor for web content that does not presuppose anything about how it will be rendered.
+- [Sanity](https://www.sanity.io/) — A headless CMS with a real-time, structured content backend and a fully customisable Studio.
 - [Softr](https://www.softr.io/) — Build websites, web apps and client portals on Airtable.
+- [Strapi](https://strapi.io/) — An open-source, self-hosted headless CMS with a customisable API.
 - [Tina](https://tina.io/) — Tina is an open-source, headless CMS for Markdown, MDX, and JSON.
 
 </details>
@@ -124,18 +126,15 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 
 - [Animate.css](https://daneden.github.io/animate.css/) — Just add water CSS animations.
 - [Animista](http://animista.net/) — CSS animations on demand.
-- [Atomic CSS](https://acss.io/) — CSS for component-based frameworks.
 - [Bulma](http://bulma.io/) — A modern CSS framework based on Flexbox.
 - [Crayon.css](http://riccardoscalco.github.io/crayon/) — A list of CSS variables linking colour names to hexadecimal values.
-- [csswizardry-grids](https://csswizardry.com/csswizardry-grids/) — A fully responsive, mobile-first, infinitely nestable, reversible, reorderable, simple to understand, human-friendly, robust grid system.
 - [Gutenberg](http://matejlatin.github.io/Gutenberg/) — A web typography starter kit.
-- [Jeet](http://jeet.gs/) — A grid system for humans.
+- [Open Props](https://open-props.dev/) — Supercharged CSS variables for consistent, themeable design.
 - [Primer](http://primercss.io/) — The CSS toolkit and guidelines that power GitHub.
-- [Pure](https://purecss.io/) — A set of small, responsive CSS modules that you can use in every web project.
 - [Responsive Grid System](http://www.responsivegridsystem.com/) — A quick and easy way to create a responsive website.
-- [Semantic UI](http://semantic-ui.com/) — A development framework that helps create responsive layouts.
-- [Tachyons](http://tachyons.io/) — Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible.
-- [ungrid](http://chrisnager.github.io/ungrid/) — A simple responsive CSS grid.
+- [shadcn/ui](https://ui.shadcn.com/) — Copy-paste React components built on Radix UI and Tailwind CSS.
+- [Tailwind CSS](https://tailwindcss.com/) — A utility-first CSS framework for building custom designs without leaving your markup.
+- [UnoCSS](https://unocss.dev/) — An instant, on-demand atomic CSS engine.
 
 ### SVG
 
@@ -286,72 +285,39 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 <details>
 <summary><strong>Google Chrome Extensions</strong></summary>
 
-- [Alix](https://chrome.google.com/webstore/detail/alix-for-chrome/aepmadgjacfjcneccddiccnkbpimobge) — Allows you to lint your HTML for Accessibility issues simply by applying a stylesheet that makes use of advanced CSS selectors.
+*Chrome fully disabled Manifest V2 extensions in 2025 and removes remaining Manifest V2 listings from the Web Store entirely by August 2026, which broke most of the small, unmaintained extensions that used to live in this list. Only actively maintained, Manifest V3 extensions are kept below.*
+
+- [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessi/lhdoppojpmngadmnindnejefpokejbdd) — Automated accessibility testing built into Chrome DevTools.
 - [Awesome Screenshot](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en) — Screen capture for all or part of any web page.
 - [Built With](https://chrome.google.com/webstore/detail/builtwith-technology-prof/dapjbgnjinbpoindlpdmhochffioedbn?hl=en) — Find out the technology behind any website.
-- [Bukket](http://bukketapp.com/) — Screen capture and record animated GIFs all within the browser.
-- [Clear Cache](https://chrome.google.com/webstore/detail/clear-cache/cppjkneekbjaeellbfkmgnhonkkjfpdn) — Clear your cache and browsing data with a single click of a button.
 - [ColorZilla](http://www.colorzilla.com/chrome/) — Includes a colour picker, eye dropper, gradient generator and other advanced colour tools (available for Firefox too).
-- [Context Menu Search](https://chrome.google.com/webstore/detail/context-menu-search/ocpcmghnefmdhljkoiapafejjohldoga) — Use the right-click menu to search for selected text in different search engines.
 - [CSSPeeper](https://csspeeper.com/) — A smart CSS viewer tailored for Designers.
-- [CSS Dig](https://chrome.google.com/webstore/detail/css-dig/lpnhmlhomomelfkcjnkcacofhmggjmco) — Collect and analyse CSS.
-- [CSS Shapes Editor](https://chrome.google.com/webstore/detail/css-shapes-editor/nenndldnbcncjmeacmnondmkkfedmgmp) — Interactive editor for CSS Shapes.
-- [DevTools Author](https://chrome.google.com/webstore/detail/devtools-author/egfhcfdfnajldliefpdoaojgahefjhhi) — A selection of author settings for Chrome Developer Tools.
-- [DevTools Snippets](http://bgrins.github.io/devtools-snippets/) — A collection of helpful tools to use inside of browser devtools.
-- [Dewey](http://deweyapp.io/) — Better bookmarks.
-- [DiagnostiCSS](https://chrome.google.com/webstore/detail/diagnosticss/ekpmkpffmmchjaopplcmdadmdhibpmdi?hl=en) — Helps visually detect any potentially invalid, inaccesible or erroneous HTML markup.
-- [Emmet Re:View](https://chrome.google.com/webstore/detail/emmet-review/epejoicbhllgiimigokgjdoijnpaphdp?hl=en) — Shows views with all responsive media-query breakpoints for current page.
-- [Form Filler](https://chrome.google.com/webstore/detail/form-filler/bnjjngeaknajbdcgpfkgnonkmififhfo?hl=en) — Fills all form inputs in a page with dummy data.
 - [Ghostery](https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij) — See who is tracking your web browsing.
-- [Go F#cking Work](https://chrome.google.com/webstore/detail/go-fucking-work/hibmkkpfegfiinilnlabbfnjcopdiiig?hl=en) — Redirect unproductive sites to motivational messages.
-- [Image Size Info](https://chrome.google.com/webstore/detail/image-size-info/oihdhfbfoagfkpcncinlbhfdgpegcigf?hl=en) — Inserts an option in the image context menu to view image width, height and file size.
-- [Image Tool](https://chrome.google.com/webstore/detail/image-tool/bbahpklmeonhcijijenbnjecpdokmaeg?hl=en) — Helps you easily read and understand design specs.
 - [JSONView](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc) — Validate and view JSON documents.
-- [Linkclump](https://chrome.google.com/webstore/detail/linkclump/lfpjkncokllnfokkgpkobnkbkmelfefj?hl=en) — Lets you open, copy or bookmark multiple links at the same time.
-- [Marmoset](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb?hl=en) — Create code snapshots.
-- [Neo Vision](https://chrome.google.com/webstore/detail/neo-vision/lcckpjpfpmnojpkhlnekhclcfegepaij?hl=en-US) — Syntax-highlights source code files with customisable themes.
 - [OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall?hl=en) — Save up to 95% memory and reduce tab clutter.
-- [Page Ruler](https://chrome.google.com/webstore/detail/page-ruler/jlpkojjdgbllmedoapgfodplfhcbnbpn?hl=en) — Draw a rule to get pixel dimensions and positioning, and measure elements on any web page.
-- [Palette Creator](https://chrome.google.com/webstore/detail/palette-creator/oolpphfmdmjbojolagcbgdemojhcnlod?hl=en) — Create a colour palette from any image.
-- [Palette Ninja](https://chrome.google.com/webstore/detail/palette-ninja/aiciopeddnenljjhfhpaonfohefjblnk?hl=en) — An online tool that allows you to create harmonious color schemes.
-- [Panda](http://www.usepanda.com/) — Daily news and inspiration for designers, developers & entrepreneurs.
-- [PerfectPixel](http://www.welldonecode.com/perfectpixel/) — Develop websites with per-pixel accuracy.
-- [Performance-Analyser](https://chrome.google.com/webstore/detail/performance-analyser/djgfmlohefpomchfabngccpbaflcahjf) — Get insight into the performance of the website in the current tab — sort of a mini live version of WebPageTest.
-- [Pesticide](https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh) — Inserts the Pesticide CSS into the current page, outlining each element to better see placement on the page.
-- [PHP Console](https://chrome.google.com/webstore/detail/php-console/nfhmhhlpfleoednkpnnnkolmclajemef) — Display PHP errors & var dumps in Google Chrome console and notification popups, execute PHP code remotely.
-- [Play](https://play.ht/) — Listen to any Medium article.
-- [Portent’s SEO Page Review](https://chrome.google.com/webstore/detail/portents-seo-page-review/babgchcegnkbiojmdpnoilficladccfm?hl=en-US) — Review common SEO elements and issues on the page.
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) — Adds React debugging tools to the Chrome Developer Tools.
-- [Rename Email](https://chrome.google.com/webstore/detail/rename-email/miepnlkmnjdfcnkplikgackpobfmaifb) — Rename unclear email subject headlines.
-- [Responsive Web Design Tester](https://chrome.google.com/webstore/detail/responsive-web-design-tes/objclahbaimlfnbjdeobicmmlnbhamkg?hl=en) — Quickly preview your responsive website designs at the dimensions they will be seen on popular mobile devices.
-- [Search Overflow](https://chrome.google.com/webstore/detail/search-overflow/mnjjnlpfohojhebjajehppdpepmhidnc) — Search Stack Overflow answers right from DevTools.
 - [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko?hl=en) — A session manager for your browser.
-- [simple-debug.css](https://chrome.google.com/webstore/detail/simple-debugcss/jlkgkebpphmaiemciejnmgccejccnpha) — Debug your layouts.
-- [Show me the React](https://github.com/cymen/show-me-the-react) — Highlights React components on the page.
-- [SnappySnippet](https://chrome.google.com/webstore/detail/snappysnippet/blfngdefapoapkcdibbdkigpeaffgcil) — Easily extract CSS and HTML from selected element. Then send it to CodePen, jsFiddle or JS Bin with one click.
-- [Toby](https://www.gettoby.com/) — Manage and organise tabs and easily find content.
 - [User-Agent Switcher](https://chrome.google.com/webstore/detail/user-agent-switcher/lkmofgnohbedopheiphabfhfjgkhfcgf) — Switches User-Agent strings to mimic, spoof or fake other browsers or bots.
+- [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer-technology-pr/gppongmhjkpfnbhagpmjfkannfbllamg) — Identifies the technologies, frameworks and services a website is built with.
 - [Web Developer](http://chrispederick.com/work/web-developer/) — Adds a toolbar button with various web developer tools. The official port of the Web Developer extension for Firefox.
 - [Web Developer Checklist](https://chrome.google.com/webstore/detail/web-developer-checklist/iahamcpedabephpcgkeikbclmaljebjp) — Analyse any web page for violation of best practices.
-- [Wildfire](https://chrome.google.com/webstore/detail/wildfire/djhgeeodemlfdpmcccdekfalbhllcoim) — Record browser actions then replay immediately.
 - [Window Resizer](https://chrome.google.com/webstore/detail/window-resizer/kkelicaakdanhinjdeammmilcgefonfh) — Resize browser window to emulate various screen resolutions.
 
 </details>
 
-<a id="gulp-grunt"></a>
+<a id="build-tools"></a>
 <details>
-<summary><strong>Gulp & Grunt</strong></summary>
+<summary><strong>Build Tools & Bundlers</strong></summary>
 
-- [Automate your tasks easily with Gulp](https://scotch.io/tutorials/automate-your-tasks-easily-with-gulp-js)
-- [Building with Gulp](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
-- [Grulp](https://github.com/pankajparashar/grulp) — Moving from Grunt to Gulp (or vice-versa)? Get the list of ready-to-use grunt/gulp plugins for your next project.
-- [Grunt Devtools](https://chrome.google.com/webstore/detail/grunt-devtools/fbiodiodggnlakggeeckkjccjhhjndnb) — Extends the Developer Tools, adding tools for Grunt.
-- [Grunt Email Workflow](https://github.com/leemunroe/grunt-email-workflow) — A Grunt workflow for designing and testing responsive HTML email templates with SCSS.
-- [Gulpsetup](http://urre.github.io/gulpsetup/) — A simple starting point for using GulpJS.
-- [Gulp for Beginners](https://css-tricks.com/gulp-for-beginners/)
-- [Gulp Plugin Registry](http://gulpjs.com/plugins/)
-- [Gulp Recipes](https://github.com/gulpjs/gulp/tree/master/docs/recipes)
-- [Offroadcode Starter Kit](https://github.com/Offroadcode/Offroadcode-Starter-Kit)
+*Gulp and Grunt (task runners) and their plugin ecosystems have been superseded by faster, config-light bundlers — this section replaces the old Gulp & Grunt list.*
+
+- [Bun](https://bun.sh/) — An all-in-one JavaScript runtime, bundler, test runner and package manager.
+- [esbuild](https://esbuild.github.io/) — An extremely fast JavaScript bundler and minifier.
+- [Parcel](https://parceljs.org/) — A zero-configuration web application bundler.
+- [Rollup](https://rollupjs.org/) — A module bundler optimised for building libraries.
+- [tsup](https://tsup.egoist.dev/) — Bundle TypeScript libraries with no configuration.
+- [Turbopack](https://turbo.build/pack) — An incremental bundler optimised for JavaScript and TypeScript, written in Rust.
+- [Vite](https://vitejs.dev/) — A fast build tool and dev server built on native ES modules.
 
 </details>
 
@@ -475,6 +441,30 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 - [Weight Of It](http://weightof.it/) — Compare JavaScript libraries by weight.
 - [You might not need jQuery plugins](http://youmightnotneedjqueryplugins.com/)
 
+### Animation
+
+- [GSAP](https://gsap.com/) — The industry-standard JavaScript animation library for complex, high-performance sequencing.
+- [Lenis](https://lenis.darkroom.engineering/) — A lightweight, smooth-scroll library.
+- [Motion](https://motion.dev/) — A modern animation library for JavaScript and React, built on the Web Animations API.
+
+### Frameworks / Meta-frameworks
+
+- [Astro](https://astro.build/) — A content-focused framework that ships zero JavaScript by default.
+- [Next.js](https://nextjs.org/) — The React framework for production, with routing, rendering and data fetching built in.
+- [Remix](https://remix.run/) — A full stack web framework focused on web standards and modern UX.
+- [SvelteKit](https://kit.svelte.dev/) — The application framework for Svelte.
+
+</details>
+
+<a id="typescript"></a>
+<details>
+<summary><strong>TypeScript</strong></summary>
+
+- [Total TypeScript](https://www.totaltypescript.com/) — Free and paid TypeScript tutorials from Matt Pocock.
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) — A free, community-maintained TypeScript book.
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) — The official guide to TypeScript.
+- [type-fest](https://github.com/sindresorhus/type-fest) — A collection of essential TypeScript utility types.
+
 </details>
 
 <a id="job-boards"></a>
@@ -493,7 +483,6 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 <details>
 <summary><strong>MAC Software</strong></summary>
 
-- [Atom](https://atom.io/) — A hackable text editor.
 - [Firefox Developer Edition](https://www.mozilla.org/en-US/firefox/developer/)
 - [Fontplop](http://www.fontplop.com/) — Takes TTF and OTF files and output a web-font bundle.
 - [GitHub Desktop](https://desktop.github.com/) — Simple collaboration from your desktop.
@@ -502,12 +491,13 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 - [MockFlow](https://www.mockflow.com/) — Online wireframe tool for software and websites.
 - [Mou](http://25.io/mou/) — A Markdown editor for developers.
 - [NameChanger](https://mrrsoftware.com/namechanger/) — Rename a list of files quickly and easily.
-- [Opera Mobile Emulator](http://www.opera.com/developer/mobile-emulator) — Mobile debugging on your desktop.
 - [Origami](http://facebook.github.io/origami/) — A free tool for designing modern user interfaces.
 - [PixelSnap](https://getpixelsnap.com/) — The fastest way to measure everything on screen.
 - [Sip](https://itunes.apple.com/au/app/sip/id507257563?mt=12) — A simple colour picker that instantly samples and encodes any colour on your screen.
 - [Smaller](http://25.io/smaller/) — An HTML, CSS and JavaScript compressor which also has the ability to combine several files into one.
+- [Visual Studio Code](https://code.visualstudio.com/) — Microsoft’s free, extensible code editor — Atom’s spiritual successor.
 - [VirtualBox](https://www.virtualbox.org/) — A general-purpose full virtualizer for x86 hardware. Also see IE 7 8 9 10 11 Testing VM’s.
+- [Zed](https://zed.dev/) — A high-performance, multiplayer code editor built by former Atom engineers.
 
 </details>
 
@@ -653,12 +643,14 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 - [50 Meticulous Style Guides Every Startup Should See Before Launching](https://designschool.canva.com/blog/50-meticulous-style-guides-every-startup-see-launching/)
 - [Bits](http://bits.24ways.org/) — The front-end component library for 24 ways.
 - [BuzzFeed](http://solid.buzzfeed.com/)
+- [IBM Carbon Design System](https://carbondesignsystem.com/) — IBM’s open-source design system for products and experiences.
 - [Material UI](http://material-ui.com/)
 - [MailChimp UX](http://ux.mailchimp.com/patterns)
 - [Nachos](https://design.trello.com/) — Trello’s design system.
 - [Poor Man’s Styleguide](http://www.poormansstyleguide.com/) — A quick-and-dirty frontend styleguide, designed to be copied and pasted into your CMS.
 - [Primer](http://primercss.io/)
-- [Pure](http://purecss.io/)
+- [Radix UI](https://www.radix-ui.com/) — Unstyled, accessible component primitives for building design systems.
+- [Shopify Polaris](https://polaris.shopify.com/) — Shopify’s design system for building consistent commerce experiences.
 - [Starbuck’s Style Guide](https://www.starbucks.com/static/reference/styleguide/)
 - [Style Guide Guide](http://bradfrost.github.io/style-guide-guide/) — A boilerplate for creating superb style guides.
 - [Thumbprint](https://thumbprint.design/)
@@ -674,9 +666,14 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 - [Browsersync](http://www.browsersync.io/) — Synchronised browser testing.
 - [Can I use](http://caniuse.com/) — Tells you which browsers support what, and from which version.
 - [Code Beautify](http://codebeautify.org/) — Free online tools to beautify, validate, minify, analyse and convert JSON, XML, JavaScript, CSS & HTML.
+- [Cypress](https://www.cypress.io/) — Fast, reliable end-to-end and component testing for anything that runs in a browser.
+- [Jest](https://jestjs.io/) — A delightful JavaScript testing framework focused on simplicity.
+- [Playwright](https://playwright.dev/) — Reliable end-to-end testing for modern web apps across all browsers.
 - [Quality Assurance Tools](https://sifterapp.com/academy/resources/tools/) — A curated list of tools and applications specifically focused on improving the quality of your software.
 - [SSL Check](https://www.jitbit.com/sslcheck/) — Scan your website for non-secure content.
-- [W3C Developer Tools](https://w3c.github.io/developers/tools/) — Lead your code to its full potential  with great and open source tools.
+- [Testing Library](https://testing-library.com/) — Simple and complete testing utilities that encourage good testing practices.
+- [Vitest](https://vitest.dev/) — A blazing fast unit test framework powered by Vite.
+- [W3C Developer Tools](https://w3c.github.io/developers/tools/) — Lead your code to its full potential  with great and open source tools.
 
 </details>
 
@@ -738,6 +735,16 @@ Started in 2015 as a Christmas gift to Medium readers; this repo is that list fi
 - [Type resources for designers and brand owners](http://www.monotype.com/resources/webinars/) — By Monotype.
 - [Type Scale](http://type-scale.com/) — Preview and choose the right type scale for your project. Experiment with font size, scale and different webfonts.
 - [wordmark](http://wordmark.it/) — Quickly display previews of any text with the fonts installed on your computer.
+
+</details>
+
+<a id="ai-assisted-development"></a>
+<details>
+<summary><strong>AI-Assisted Development</strong></summary>
+
+- [Cursor](https://cursor.com/) — An AI-first code editor built on VS Code.
+- [GitHub Copilot](https://github.com/features/copilot) — AI pair programming built into your editor.
+- [v0](https://v0.app/) — Generate and iterate on UI from natural-language prompts.
 
 </details>
 
